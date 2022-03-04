@@ -1,0 +1,29 @@
+<<client-sever
+1. client : 고객 - 정보를 요청하는 것으로, 브라우저가 이에 속함
+2. sever : 운영 - 정보를 제공
+3. 브라우저의 종류 : 크롬, 웨일, 익스플로러, 오페라 등
+4.client 언어 : html5, css3, js 등
+5. sever언어 : php, jsp 등
+
+semantic tag(시멘틱태그) 의미를 알 수 있게 지정한 태그
+<header></header>
+<nav>
+	<section>
+		<article>
+		</article>
+	</section>
+</nav>
+<footer></footer>
+
+<<CSS
+사용방법
+1. <style>...</style>
+2. 외부파일로 만들어서 링크
+  <link rel = "stylesheet" href="css">
+3. 태그에 직접 사용
+형식
+selector(속성:값; 속성:값...)
+
+meta
+해당 문서의 정보를 나타냄
+keyword : 해당 키워드 검색하면 나오게 함
