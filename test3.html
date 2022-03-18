@@ -7,11 +7,13 @@
     <title>Document</title>
     <style>
         #wrap{
+            display: inline-block;
             background-color: cornflowerblue;
             width: 200px;
             height: 200px;
         }
         #wrap2{
+            display: inline-block;
             background-color: palevioletred;
             width: 200px;
             height: 200px;
@@ -19,10 +21,29 @@
         body{
             margin: 0;
         }
+        a{
+            display: block;
+            width: 100px;
+            height: 100px;
+            border: 5px solid slateblue;
+        }
+        #div1{
+            width: 200px;
+            height: 200px;
+            border: 20px solid yellowgreen;
+            padding: 20px;
+            font-size: 10px;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <div id="wrap"></div>
     <div id="wrap2"></div>
+    <a href="#">home</a>
+    &nbsp;
+    <a href="#">join</a>
+    <div id="div1">div</div>
 </body>
 </html>
